@@ -26,7 +26,6 @@ gulp.task ('reload', function () {
 gulp.task ('minify', function () {
   gulp.run ('js-uglify');
   gulp.run ('minify-html');
-  gulp.run ('image-min');
 });
 gulp.task ('js-uglify', function () {
   gulp.src ('./root/js/**/*.js')
@@ -38,11 +37,9 @@ gulp.task ('minify-html', function () {
       .pipe (htmlmin ({collapseWhitespace: true}))
       .pipe (gulp.dest ('./root/'));
 });
-gulp.task ('image-min', function () {
-});
 
 // ===================================================
 
-gulp.task ('gh-pages', function () {
+gulp.task ('del-root', function () {
   del (['./root']);
 });
