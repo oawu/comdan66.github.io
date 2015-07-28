@@ -2,15 +2,15 @@
 === no npm installed
 
 no master
-git add -A && git commit -m 'Fix Html Code.' && gut push origin master && git branch -v master && git checkout master && cd cmd && sudo npm install .  && gulp minify && gulp del-root && cd ../ && git add -A && git commit -m 'Minify js、html, fix root path bug.' && git push origin master --force && git checkout dev
+git add -A && git commit -m 'Fix Html Code.' && git push origin master && git branch -v master && git checkout master && cd cmd && sudo npm install .  && gulp minify && gulp del-root && cd ../ && git add -A && git commit -m 'Minify js、html, fix root path bug.' && git push origin master --force && git checkout dev
 
 has master
-git add -A && git commit -m 'Fix Html Code.' && gut push origin master && git branch -D master && git branch -v master && git checkout master && cd cmd && sudo npm install . && gulp minify && gulp del-root && cd ../ && git add -A && git commit -m 'Minify js、html, fix root path bug.' && git push origin master --force && git checkout dev
+git add -A && git commit -m 'Fix Html Code.' && git push origin master && git branch -D master && git branch -v master && git checkout master && cd cmd && sudo npm install . && gulp minify && gulp del-root && cd ../ && git add -A && git commit -m 'Minify js、html, fix root path bug.' && git push origin master --force && git checkout dev
 
 === has npm installed
 
 no master
-git add -A && git commit -m 'Fix Html Code.' && gut push origin master && git branch -v master && git checkout master && cd cmd && gulp minify && gulp del-root && cd ../ && git add -A && git commit -m 'Minify js、html, fix root path bug.' && git push origin master --force && git checkout dev
+git add -A && git commit -m 'Fix Html Code.' && git push origin master && git branch -v master && git checkout master && cd cmd && gulp minify && gulp del-root && cd ../ && git add -A && git commit -m 'Minify js、html, fix root path bug.' && git push origin master --force && git checkout dev
 
 has master
-git add -A && git commit -m 'Fix Html Code.' && gut push origin master && git branch -D master && git branch -v master && git checkout master && cd cmd && gulp minify && gulp del-root && cd ../ && git add -A && git commit -m 'Minify js、html, fix root path bug.' && git push origin master --force && git checkout dev
+git add -A && git commit -m 'Fix Html Code.' && git push origin master && git branch -D master && git branch -v master && git checkout master && cd cmd && gulp minify && gulp del-root && cd ../ && git add -A && git commit -m 'Minify js、html, fix root path bug.' && git push origin master --force && git checkout dev
